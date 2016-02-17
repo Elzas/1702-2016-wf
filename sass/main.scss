@@ -1,0 +1,20 @@
+@import "sass/bourbon/bourbon";
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666666;
+}
+
+//Custom Styles Here
+
+body {
+  background-color: #ccc;
+}
+
+//ALWAYS END
+@import "sass/_media.scss";
